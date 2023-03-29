@@ -13,10 +13,11 @@
 
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 
-@media only screen and (min-width: 599px) and (max-width: 767px) {
+@media only screen and (min-width: 575px) and (max-width: 992px) {
     .logo {
         text-align: center;
-        width: 60%;
+        min-width: 40%;
+        max-width: min(70%,500px);
     }
 
     .cart-content-right {
@@ -180,7 +181,8 @@
     }
 
     .logo {
-        width: 40%;
+        min-width: 40%;
+        max-width: 600px;
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -690,7 +692,7 @@
     }
 
     .logo {
-        width: 60%;
+        max-width: 75%;
     }
 
     .banner_taital {
@@ -773,7 +775,7 @@
     }
 
     .image_11 {
-        width: 50%;
+        width: auto;
     }
 
     .dummy_text {
@@ -793,6 +795,7 @@
     }
 
     .footer_section {
+        margin-top: 20px;
         padding-top: 50px;
     }
 
