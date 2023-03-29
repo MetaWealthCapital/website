@@ -243,8 +243,12 @@ button {
 }
 
 .logo {
-    width: 20%;
+    width: 40%;
     float: left;
+}
+
+.image_11 {
+    max-width: 150px;
 }
 
 .bg-light {
